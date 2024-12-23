@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <label for="Adınıuz">Adınız</label>
+        <input type="text" id="Adınıuz" />
+      </div>
+      <div>
+        <label for="Soyadiniz">Soyadiniz</label>
+        <input type="text" id="Soyadiniz" />
+      </div>
+      <div>
+        <label for="Tc">Tc</label>
+        <input type="text" id="Tc" />
+      </div>
+      <div>
+        <label for="parola">Şifre</label>
+        <input type="password" id="parola" />
+      </div>
+      <div>
+        <p>en sevdiğin programlama dili</p>
+        <input type="radio" id="JavaScript" name="programlama" />
+        <label for="JavaScript">JavaScript</label>
+
+        <input type="radio" id="Python" name="programlama" />
+        <label for="Python">Python</label>
+
+        <input type="radio" id="PHP" name="programlama" />
+        <label for="PHP">PHP</label>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <p>En sevdiğin dil</p>
+
+        <input type="radio" id="Kürtçe" name="dil" />
+        <label for="Kürtçe">Kürtçe</label>
+
+        <input type="radio" id="İspanyolca" name="dil" />
+        <label for="İspanyolca">İspanyolca</label>
+
+        <input type="radio" id="Almanca" name="dil" />
+        <label for="Almanca">Almanca</label>
+      </div>
+
+      <div>
+        <p>Dünyadaki en gelişmiş ülkeler</p>
+        <input type="checkbox" id="Amerika" />
+        <label for="Amerika">Amerika</label>
+
+        <input type="checkbox" id="İngiltere" />
+        <label for="İngiltere">İngiltere</label>
+
+        <input type="checkbox" id="Almanya" />
+        <label for="Almanya">Almanya</label>
+      </div>
+
+      <div>
+        <label for="intro">Biraz kendinden bahset</label>
+        <textarea name="text"></textarea>
+      </div>
+
+      <div>
+        <label for="Şehirler">Şehirler</label>
+        <select id="Şehirler">
+          <option value="07">Antalya</option>
+          <option value="37">istanbul</option>
+          <option value="17">Denizli</option>
+          <option value="67">Bursa</option>
+        </select>
+      </div>
+      <div>
+        <label for="email">e-posta</label>
+        <input type="email" id="email" />
+      </div>
+
+      <button type="submit">Kaydet</button>
+      <button type="reset">Temizle</button>
+    </form>
+  </body>
+</html>
